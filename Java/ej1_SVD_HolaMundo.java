@@ -52,8 +52,17 @@ public class ej1_SVD_HolaMundo {
         // Tipos de datos primitivos
         byte b = 1;
         short s = 2;
+        int entero = 10;
+        long largo = 1000L;
+        float decimal = 3.14f;
+        double grande = 2.78955;
+        char letra = 'A';
+        boolean booleano = true;
 
-
+        // Imprimir por terminal
+        System.out.println("Hola Java");
+        System.out.println("Hola " + variable);
+        System.out.println(String.format("Hola %s", variable));
     }
 
 }
